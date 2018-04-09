@@ -1,21 +1,22 @@
-local l = require "log"
+local init = require "init"
 
 
-CallFunc()
-d2("test", "test2", 1, 2, 3, 4, 5, 6, 7 ,8 , 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+print(add2Lua(1.0,2.0)); 
+print(sub2Lua(20.1,19))
+print(base64Encode("你好"))
 
-print(a)
+--print(package.path);
+--print(package.cpath);
 
-function a()
+--package.path = package.path .. ';D:/GitHub/test/LUA/Debug/test/?.lua;'
+--print(package.path);
+--package.path = '../test/?.lua;'
+
+--local luacallc_test = require "luacallc_test"
+--local ccalllua_test = require "ccalllua_test"
 
 
-	local cjson = require "cjson"
-	local func = loadfile("/path/to/hello_world.lua")
-	local status,err = pcall(func) -- 把整个脚本当作函数来执行
-	if not status then
-		local code = err.code and tonumber(err.code) or 500
-		local msg = err.msg and tostring(err.msg) or "Unknown error occurred"
-		--print(cjson.encode({code = code,msg = msg})) -- 输出{"code":10001,"msg":"发生错误了！"}
-	end
 
-end
+--[[function test()
+	local luacallc_test = require "luacallc_test"
+end]]

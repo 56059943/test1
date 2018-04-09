@@ -16,6 +16,9 @@
     <Filter Include="lua">
       <UniqueIdentifier>{084c41fe-cd6c-4c3a-9f46-557d0dff7be3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{7507c000-1c89-459f-8929-76a2077c7943}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -123,6 +126,9 @@
     <ClCompile Include="lua\lzio.c">
       <Filter>lua</Filter>
     </ClCompile>
+    <ClCompile Include="utils\base64_util.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lua\lapi.h">
@@ -202,6 +208,9 @@
     </ClInclude>
     <ClInclude Include="lua\lzio.h">
       <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\base64_util.h">
+      <Filter>utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

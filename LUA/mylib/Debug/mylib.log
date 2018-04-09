@@ -1,0 +1,6 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl lua_pushnumber(struct lua_State *,double)" (?lua_pushnumber@@YAXPAUlua_State@@N@Z)，该符号在函数 "int __cdecl myadd(struct lua_State *)" (?myadd@@YAHPAUlua_State@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl lua_createtable(struct lua_State *,int,int)" (?lua_createtable@@YAXPAUlua_State@@HH@Z)，该符号在函数 "int __cdecl luaopen_mylib(struct lua_State *)" (?luaopen_mylib@@YAHPAUlua_State@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl luaL_checkversion_(struct lua_State *,double,unsigned int)" (?luaL_checkversion_@@YAXPAUlua_State@@NI@Z)，该符号在函数 "int __cdecl luaopen_mylib(struct lua_State *)" (?luaopen_mylib@@YAHPAUlua_State@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "double __cdecl luaL_checknumber(struct lua_State *,int)" (?luaL_checknumber@@YANPAUlua_State@@H@Z)，该符号在函数 "int __cdecl myadd(struct lua_State *)" (?myadd@@YAHPAUlua_State@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl luaL_setfuncs(struct lua_State *,struct luaL_Reg const *,int)" (?luaL_setfuncs@@YAXPAUlua_State@@PBUluaL_Reg@@H@Z)，该符号在函数 "int __cdecl luaopen_mylib(struct lua_State *)" (?luaopen_mylib@@YAHPAUlua_State@@@Z) 中被引用
+D:\GitHub\test\LUA\Debug\mylib.dll : fatal error LNK1120: 5 个无法解析的外部命令
