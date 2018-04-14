@@ -36,3 +36,16 @@ local r3 = 	{
 						}
 			}
 log.e(r3)
+
+local r4 = 	{
+				code=0
+				, msg=ok
+				, data={
+							status=0
+							, account="acc001"
+							, amount="0.01"
+							, price=2.01
+						}
+				, list = { 0, 1, 2, 99 }		
+			}
+log.e(r3)

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <time.h>  
 
 extern "C"
 {
@@ -111,10 +112,13 @@ static int sub2Lua(lua_State* L)
 //另一个待Lua调用的C注册函数。  
 static int base64Encode(lua_State* L)
 {
-	const char * op1 = luaL_checkstring(L, 1);
-	char buf[2048] = { 0 };
-	int size = Base64Util::Base64EncodeQuick(buf, (const unsigned char *)op1, strlen(op1));
+	const char * msg = luaL_checkstring(L, 1);
+	size_t msg_size = strlen(msg);
+	char * buf = new char[msg_size * 2];
+	int size = Base64Util::Base64EncodeQuick(buf, (const unsigned char *)msg, msg_size);
+	buf[size] = '\0';
 	lua_pushstring(L, buf);
+	delete[] buf;
 	return 1;
 }
 
@@ -142,7 +146,13 @@ void main()
 {
 	while (1)
 	{
+		CLOCKS_PER_SEC;
+		double start, end, cost;
+		start = clock();
 		ccalllua();
+		end = clock();
+		cost = end - start;
+		printf("%fms\n", cost);
 		//test();
 		int i;
 		std::cin >> i;

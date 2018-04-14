@@ -1,34 +1,52 @@
 //mylib.c
-#include <stdio.h>
-#include <math.h>
+#include "my.h"
 
-
-#define DllExport   __declspec( dllexport )
-
-extern "C"
+int GameLogic1(lua_State *L)
 {
-#include "lua/lua.h"
-#include "lua/lualib.h"
-#include "lua/lauxlib.h"
+	int n = lua_gettop(L);
+	double sum = 0;
+	int i;
 
-//int DllExport myadd(lua_State *L);
-int DllExport luaopen_mylib(lua_State *L);
+	for (i = 1; i <= n; i++)
+	{
 
+		sum += lua_tonumber(L, i);
+	}
+
+	lua_pushnumber(L, sum / n);
+
+	lua_pushnumber(L, sum);
+
+	return 2;
 }
-
-static int myadd(lua_State *L) {
-	int a = luaL_checknumber(L, 1);
-	int b = luaL_checknumber(L, 2);
-	lua_pushnumber(L, a + b);
-	return 1;
-}
-
-static const struct luaL_Reg mylib[] = {
-	{ "add", myadd },
+const struct luaL_Reg Func1lib[] = {
+	{ "GameLogic1", GameLogic1 },
 	{ NULL, NULL }
 };
 
-int luaopen_mylib(lua_State *L) {
-	luaL_newlib(L, mylib);
+
+int luaopen_Func1lib(lua_State* L)
+{
+#if LUA_VERSION_NUM == 501
+	luaL_openlib(L, "Func1lib", Func1lib, 0);
+#elif LUA_VERSION_NUM == 503
+	lua_getglobal(L, "Func1lib");
+	if (lua_isnil(L, -1)) {
+		lua_pop(L, 1);
+		lua_newtable(L);
+	}
+	luaL_setfuncs(L, Func1lib, 0);
+	lua_setglobal(L, "Func1lib");
+
+
+	/*
+	而luaL_register这样的API就不推荐用了，因为会污染全局名字，所以一般这样写：
+	lua_newtable(L);
+	luaL_setfuncs(L, mylib, 0);
+	return 1;
+	在Lua用的时候，就这样引用好了：
+	local mylib= require "mylib"
+	*/
+#endif
 	return 1;
 }

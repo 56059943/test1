@@ -1,6 +1,0 @@
-﻿  main.cpp
-d:\github\test\lua\mylib\main.cpp(20): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
-d:\github\test\lua\mylib\main.cpp(21): warning C4244: “初始化”: 从“lua_Number”转换到“int”，可能丢失数据
-    正在创建库 D:\GitHub\test\LUA\Debug\mylib.lib 和对象 D:\GitHub\test\LUA\Debug\mylib.exp
-  mylib.vcxproj -> D:\GitHub\test\LUA\Debug\mylib.dll
-  mylib.vcxproj -> D:\GitHub\test\LUA\Debug\mylib.pdb (Full PDB)
