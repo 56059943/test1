@@ -19,6 +19,7 @@ int GameLogic1(lua_State *L)
 
 	return 2;
 }
+
 const struct luaL_Reg Func1lib[] = {
 	{ "GameLogic1", GameLogic1 },
 	{ NULL, NULL }

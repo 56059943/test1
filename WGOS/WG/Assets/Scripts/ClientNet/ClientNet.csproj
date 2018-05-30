@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62CA4395-DB92-45D2-9AA9-B30CB02B1AD0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fm_ClientNet</RootNamespace>
+    <AssemblyName>ClientNet</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Resource\Client\WSH_Demo_1.1\Assets\Plugins\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientNet.cs" />
+    <Compile Include="CoreEngine\CustomSystem.cs" />
+    <Compile Include="CoreEngine\DispatchEventArgs.cs" />
+    <Compile Include="GameSock\AsyncEvent.cs" />
+    <Compile Include="GameSock\MsgEncode.cs" />
+    <Compile Include="GameSock\SocketRevMsgHandle.cs" />
+    <Compile Include="Interface\IGameClient.cs" />
+    <Compile Include="Tools\Archive.cs" />
+    <Compile Include="Const.cs" />
+    <Compile Include="GameClient\GameClient.cs" />
+    <Compile Include="GameClient\GameObject.cs" />
+    <Compile Include="GameClient\GameObjectSet.cs" />
+    <Compile Include="GameClient\GameProperty.cs" />
+    <Compile Include="GameSock\GameRecClient.cs" />
+    <Compile Include="GameSock\GameReceiver.cs" />
+    <Compile Include="GameClient\GameRecord.cs" />
+    <Compile Include="GameClient\GameRule.cs" />
+    <Compile Include="GameClient\GameScene.cs" />
+    <Compile Include="GameClient\GameSceneObj.cs" />
+    <Compile Include="GameSock\GameSender.cs" />
+    <Compile Include="GameSock\GameSock.cs" />
+    <Compile Include="GameClient\GameView.cs" />
+    <Compile Include="GameClient\GameViewObj.cs" />
+    <Compile Include="GlobalClientMsgDefine.cs" />
+    <Compile Include="GlobalServerMsgDefine.cs" />
+    <Compile Include="Interface\IGameSock.cs" />
+    <Compile Include="GameClient\NetCommon.cs" />
+    <Compile Include="GameClient\Propetry.cs" />
+    <Compile Include="Tools\FreeAlloc.cs" />
+    <Compile Include="Tools\ObjectID.cs" />
+    <Compile Include="Tools\QuickLZ.cs" />
+    <Compile Include="GameClient\Record.cs" />
+    <Compile Include="GameSock\RecvPacket.cs" />
+    <Compile Include="GameClient\ServerInfo.cs" />
+    <Compile Include="Tools\SysUtils.cs" />
+    <Compile Include="Tools\Tools.cs" />
+    <Compile Include="GameSock\UserSock.cs" />
+    <Compile Include="Tools\VarList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

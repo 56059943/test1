@@ -2,12 +2,7 @@
 #include <string>
 #include <time.h>  
 
-extern "C"
-{
-#include "lua/lua.h"
-#include "lua/lualib.h"
-#include "lua/lauxlib.h"
-}
+#include "my.h"
 
 #include "utils/base64_util.h"
 

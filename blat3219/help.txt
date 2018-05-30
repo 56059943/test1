@@ -1,0 +1,9 @@
+Hi:
+	I use blat with ms vs2015 on windows 10. 
+	I download blat resouce and compile it, but ide show a lot of error.
+	error example:
+		LNK2001	Unparsed external symbols _memcmp	blat	D:\GitHub\test\blat\server.obj	1	
+	
+	I come from China, Can you help me?
+																		Hank
+																	2018-04-17

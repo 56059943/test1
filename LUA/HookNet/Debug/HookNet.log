@@ -1,0 +1,210 @@
+﻿  main.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(100): warning C4005: “AF_IPX”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(452): note: 参见“AF_IPX”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(140): warning C4005: “AF_MAX”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(471): note: 参见“AF_MAX”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(177): warning C4005: “SO_DONTLINGER”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(394): note: 参见“SO_DONTLINGER”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(221): error C2011: “sockaddr”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(1002): note: 参见“sockaddr”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(421): error C2059: 语法错误:“常量”
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(421): error C3805: “常量”: 意外标记，应输入“}”或者“,”
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(556): warning C4005: “IN_CLASSA”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(279): note: 参见“IN_CLASSA”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(562): warning C4005: “IN_CLASSB”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(285): note: 参见“IN_CLASSB”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(568): warning C4005: “IN_CLASSC”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(291): note: 参见“IN_CLASSC”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(579): warning C4005: “INADDR_ANY”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(296): note: 参见“INADDR_ANY”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(581): warning C4005: “INADDR_BROADCAST”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(298): note: 参见“INADDR_BROADCAST”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\shared\ws2def.h(615): error C2011: “sockaddr_in”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(1006): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(136): error C2011: “fd_set”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(1014): note: 参见“fd_set”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(156): warning C4005: “FD_CLR”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(89): note: 参见“FD_CLR”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(171): warning C4005: “FD_SET”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(94): note: 参见“FD_SET”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(180): error C2011: “timeval”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(1030): note: 参见“timeval”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(236): error C2011: “hostent”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(1018): note: 参见“hostent”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(249): error C2011: “netent”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(172): note: 参见“netent”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(256): error C2011: “servent”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(1022): note: 参见“servent”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(268): error C2011: “protoent”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(1026): note: 参见“protoent”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(364): error C2011: “WSAData”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(314): note: 参见“WSAData”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(462): error C2011: “sockproto”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(486): note: 参见“sockproto”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(504): error C2011: “linger”:“struct”类型重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(1010): note: 参见“linger”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(517): warning C4005: “SOMAXCONN”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(536): note: 参见“SOMAXCONN”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(551): warning C4005: “FD_READ”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(554): note: 参见“FD_READ”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(554): warning C4005: “FD_WRITE”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(555): note: 参见“FD_WRITE”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(557): warning C4005: “FD_OOB”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(556): note: 参见“FD_OOB”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(560): warning C4005: “FD_ACCEPT”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(557): note: 参见“FD_ACCEPT”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(563): warning C4005: “FD_CONNECT”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(558): note: 参见“FD_CONNECT”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(566): warning C4005: “FD_CLOSE”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(559): note: 参见“FD_CLOSE”的前一个定义
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1646): error C2375: “accept”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(734): note: 参见“accept”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1668): error C2375: “bind”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(739): note: 参见“bind”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1689): error C2375: “closesocket”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(744): note: 参见“closesocket”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1706): error C2375: “connect”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(746): note: 参见“connect”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1727): error C2375: “ioctlsocket”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(751): note: 参见“ioctlsocket”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1748): error C2375: “getpeername”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(756): note: 参见“getpeername”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1769): error C2375: “getsockname”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(761): note: 参见“getsockname”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1790): error C2375: “getsockopt”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(766): note: 参见“getsockopt”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1815): error C2375: “htonl”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(773): note: 参见“htonl”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1832): error C2375: “htons”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(775): note: 参见“htons”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): error C2375: “inet_addr”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(777): note: 参见“inet_addr”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): error C2375: “inet_ntoa”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(779): note: 参见“inet_ntoa”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1968): error C2375: “listen”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(781): note: 参见“listen”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1987): error C2375: “ntohl”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(785): note: 参见“ntohl”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2004): error C2375: “ntohs”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(787): note: 参见“ntohs”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2021): error C2375: “recv”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(789): note: 参见“recv”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2044): error C2375: “recvfrom”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(795): note: 参见“recvfrom”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2071): error C2375: “select”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(803): note: 参见“select”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2096): error C2375: “send”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(810): note: 参见“send”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2119): error C2375: “sendto”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(816): note: 参见“sendto”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2146): error C2375: “setsockopt”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(824): note: 参见“setsockopt”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2171): error C2375: “shutdown”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(831): note: 参见“shutdown”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2191): error C2375: “socket”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(835): note: 参见“socket”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2216): error C2375: “gethostbyaddr”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(842): note: 参见“gethostbyaddr”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238): error C2375: “gethostbyname”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(847): note: 参见“gethostbyname”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2255): error C2375: “gethostname”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(849): note: 参见“gethostname”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2295): error C2375: “getservbyport”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(853): note: 参见“getservbyport”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2314): error C2375: “getservbyname”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(857): note: 参见“getservbyname”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2333): error C2375: “getprotobynumber”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(861): note: 参见“getprotobynumber”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2350): error C2375: “getprotobyname”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(863): note: 参见“getprotobyname”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2370): error C2375: “WSAStartup”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(867): note: 参见“WSAStartup”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2390): error C2375: “WSACleanup”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(871): note: 参见“WSACleanup”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2407): error C2375: “WSASetLastError”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(873): note: 参见“WSASetLastError”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2424): error C2375: “WSAGetLastError”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(875): note: 参见“WSAGetLastError”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2445): error C2375: “WSAIsBlocking”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(877): note: 参见“WSAIsBlocking”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2463): error C2375: “WSAUnhookBlockingHook”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(879): note: 参见“WSAUnhookBlockingHook”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2481): error C2375: “WSASetBlockingHook”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(881): note: 参见“WSASetBlockingHook”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2499): error C2375: “WSACancelBlockingCall”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(883): note: 参见“WSACancelBlockingCall”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2517): error C2375: “WSAAsyncGetServByName”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(885): note: 参见“WSAAsyncGetServByName”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2545): error C2375: “WSAAsyncGetServByPort”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(893): note: 参见“WSAAsyncGetServByPort”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2573): error C2375: “WSAAsyncGetProtoByName”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(901): note: 参见“WSAAsyncGetProtoByName”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2599): error C2375: “WSAAsyncGetProtoByNumber”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(908): note: 参见“WSAAsyncGetProtoByNumber”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2625): error C2375: “WSAAsyncGetHostByName”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(915): note: 参见“WSAAsyncGetHostByName”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2651): error C2375: “WSAAsyncGetHostByAddr”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(922): note: 参见“WSAAsyncGetHostByAddr”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2681): error C2375: “WSACancelAsyncRequest”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(931): note: 参见“WSACancelAsyncRequest”的声明
+c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2699): error C2375: “WSAAsyncSelect”: 重定义；不同的链接
+  c:\program files (x86)\windows kits\8.1\include\um\winsock.h(933): note: 参见“WSAAsyncSelect”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(601): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(601): error C2227: “->sin_family”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(602): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(602): error C2227: “->sin_port”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(603): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(603): error C2227: “->sin_addr”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(604): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(604): error C2227: “->sin_zero”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(604): error C2660: “memset”: 函数不接受 2 个参数
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(611): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(611): error C2227: “->sin_family”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(612): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(612): error C2227: “->sin_port”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(613): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(613): error C2227: “->sin_addr”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(613): error C2228: “.S_un”的左边必须有类/结构/联合
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(613): error C2228: “.S_addr”的左边必须有类/结构/联合
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(614): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(614): error C2227: “->sin_zero”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(614): error C2660: “memset”: 函数不接受 2 个参数
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(621): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(621): error C2227: “->sin_family”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(622): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(622): error C2227: “->sin_port”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(623): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(623): error C2227: “->sin_addr”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(623): error C2228: “.S_un”的左边必须有类/结构/联合
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(623): error C2228: “.S_addr”的左边必须有类/结构/联合
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(624): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(624): error C2227: “->sin_zero”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(624): error C2660: “memset”: 函数不接受 2 个参数
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(632): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(632): error C2227: “->sin_addr”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(640): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(640): error C2227: “->sin_addr”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(658): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(658): error C2227: “->sin_addr”的左边必须指向类/结构/联合/泛型类型
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(658): error C2660: “IN4_ADDR_EQUAL”: 函数不接受 1 个参数
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(667): error C2027: 使用了未定义类型“sockaddr_in”
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4244): note: 参见“sockaddr_in”的声明
+c:\program files (x86)\windows kits\8.1\include\shared\mstcpip.h(667): error C2227: “->sin_addr”的左边必须指向类/结构/联合/泛型类型
+d:\github\test\lua\hooknet\main.cpp(16): error C2079: “wsadata”使用未定义的 struct“WSAData”
+d:\github\test\lua\hooknet\main.cpp(20): error C2568: “=”: 无法解析函数重载
+d:\github\test\lua\hooknet\main.cpp(20): fatal error C1003: 错误计数超过 100；正在停止编译

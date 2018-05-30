@@ -1,0 +1,3 @@
+HelloWorld.h|"D:\GitHub\test\QT5\HelloWorld\HelloWorld\HelloWorld.h" -o ".\GeneratedFiles\Debug\moc_HelloWorld.cpp" "-I.\GeneratedFiles" "-I." "-IG:\Qt\Qt5.7.1\5.7\msvc2015_64\include" "-I.\GeneratedFiles\Debug" "-IG:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtCore" "-IG:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtGui" "-IG:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtANGLE" "-IG:\Qt\Qt5.7.1\5.7\msvc2015_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+HelloWorld.qrc|"D:\GitHub\test\QT5\HelloWorld\HelloWorld\HelloWorld.qrc" -o ".\GeneratedFiles\qrc_HelloWorld.cpp" --name HelloWorld
+HelloWorld.ui|"D:\GitHub\test\QT5\HelloWorld\HelloWorld\HelloWorld.ui" -o ".\GeneratedFiles\ui_HelloWorld.h"

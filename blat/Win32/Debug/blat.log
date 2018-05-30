@@ -1,0 +1,266 @@
+﻿  attach.cpp
+  base64.cpp
+  blat.cpp
+d:\github\test\blat\blat.cpp(437): warning C4996: 'GetVersion': 被声明为已否决
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+d:\github\test\blat\blat.cpp(1010): warning C4996: 'GetVersionExW': 被声明为已否决
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: 参见“GetVersionExW”的声明
+d:\github\test\blat\blat.cpp(1012): warning C4996: 'GetVersionExW': 被声明为已否决
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: 参见“GetVersionExW”的声明
+  blatcgi.cpp
+  bldhdrs.cpp
+  filetype.cpp
+  gensock.cpp
+  gssfuncs.cpp
+  makeargv.cpp
+  mime.cpp
+  msgbody.cpp
+  options.cpp
+  parsing.cpp
+  punycode.cpp
+  reg.cpp
+  sendnntp.cpp
+  sendsmtp.cpp
+  server.cpp
+  unicode.cpp
+  uuencode.cpp
+  正在生成代码...
+d:\github\test\blat\blat.cpp(627): warning C4702: 无法访问的代码
+  正在编译...
+  yenc.cpp
+  正在生成代码...
+  Md5.c
+attach.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+server.obj : error LNK2001: 无法解析的外部符号 _memcmp
+unicode.obj : error LNK2001: 无法解析的外部符号 _memcmp
+attach.obj : error LNK2001: 无法解析的外部符号 _memcmp
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 _memcmp
+msgbody.obj : error LNK2001: 无法解析的外部符号 _memcmp
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _memcmp
+server.obj : error LNK2001: 无法解析的外部符号 _memcpy
+unicode.obj : error LNK2001: 无法解析的外部符号 _memcpy
+uuencode.obj : error LNK2001: 无法解析的外部符号 _memcpy
+parsing.obj : error LNK2001: 无法解析的外部符号 _memcpy
+reg.obj : error LNK2001: 无法解析的外部符号 _memcpy
+sendnntp.obj : error LNK2001: 无法解析的外部符号 _memcpy
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _memcpy
+Md5.obj : error LNK2001: 无法解析的外部符号 _memcpy
+mime.obj : error LNK2001: 无法解析的外部符号 _memcpy
+msgbody.obj : error LNK2001: 无法解析的外部符号 _memcpy
+options.obj : error LNK2001: 无法解析的外部符号 _memcpy
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 _memcpy
+filetype.obj : error LNK2001: 无法解析的外部符号 _memcpy
+gensock.obj : error LNK2001: 无法解析的外部符号 _memcpy
+gssfuncs.obj : error LNK2001: 无法解析的外部符号 _memcpy
+attach.obj : error LNK2001: 无法解析的外部符号 _memcpy
+base64.obj : error LNK2001: 无法解析的外部符号 _memcpy
+blat.obj : error LNK2001: 无法解析的外部符号 _memcpy
+blatcgi.obj : error LNK2001: 无法解析的外部符号 _memcpy
+unicode.obj : error LNK2001: 无法解析的外部符号 _wcschr
+options.obj : error LNK2001: 无法解析的外部符号 _wcschr
+parsing.obj : error LNK2001: 无法解析的外部符号 _wcschr
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _wcschr
+server.obj : error LNK2001: 无法解析的外部符号 _wcschr
+attach.obj : error LNK2001: 无法解析的外部符号 _wcschr
+base64.obj : error LNK2001: 无法解析的外部符号 _wcschr
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 _wcschr
+msgbody.obj : error LNK2001: 无法解析的外部符号 _wcschr
+attach.obj : error LNK2019: 无法解析的外部符号 _wcsrchr，该符号在函数 "wchar_t * __cdecl wcsrchr(wchar_t *,wchar_t)" (?wcsrchr@@YAPA_WPA_W_W@Z) 中被引用
+filetype.obj : error LNK2001: 无法解析的外部符号 _wcsrchr
+reg.obj : error LNK2001: 无法解析的外部符号 _wcsrchr
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _wcsrchr
+reg.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+server.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+unicode.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+makeargv.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+msgbody.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+options.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+parsing.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+filetype.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+gensock.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+gssfuncs.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+attach.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+base64.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+blat.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+blatcgi.obj : error LNK2001: 无法解析的外部符号 _wcscpy
+uuencode.obj : error LNK2001: 无法解析的外部符号 _wcslen
+reg.obj : error LNK2001: 无法解析的外部符号 _wcslen
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _wcslen
+server.obj : error LNK2001: 无法解析的外部符号 _wcslen
+unicode.obj : error LNK2001: 无法解析的外部符号 _wcslen
+mime.obj : error LNK2001: 无法解析的外部符号 _wcslen
+msgbody.obj : error LNK2001: 无法解析的外部符号 _wcslen
+options.obj : error LNK2001: 无法解析的外部符号 _wcslen
+parsing.obj : error LNK2001: 无法解析的外部符号 _wcslen
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 _wcslen
+filetype.obj : error LNK2001: 无法解析的外部符号 _wcslen
+gensock.obj : error LNK2001: 无法解析的外部符号 _wcslen
+gssfuncs.obj : error LNK2001: 无法解析的外部符号 _wcslen
+attach.obj : error LNK2001: 无法解析的外部符号 _wcslen
+base64.obj : error LNK2001: 无法解析的外部符号 _wcslen
+blat.obj : error LNK2001: 无法解析的外部符号 _wcslen
+blatcgi.obj : error LNK2001: 无法解析的外部符号 _wcslen
+attach.obj : error LNK2019: 无法解析的外部符号 __memicmp，该符号在函数 "int __cdecl add_one_attachment(struct _COMMON_DATA &,class Buf &,int,wchar_t *,unsigned long,unsigned long &,int,int,int,int *)" (?add_one_attachment@@YAHAAU_COMMON_DATA@@AAVBuf@@HPA_WKAAKHHHPAH@Z) 中被引用
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 __memicmp
+msgbody.obj : error LNK2001: 无法解析的外部符号 __memicmp
+parsing.obj : error LNK2001: 无法解析的外部符号 __memicmp
+attach.obj : error LNK2019: 无法解析的外部符号 _free，该符号在函数 "void __cdecl releaseNode(struct NODES * &)" (?releaseNode@@YAXAAPAUNODES@@@Z) 中被引用
+blat.obj : error LNK2001: 无法解析的外部符号 _free
+parsing.obj : error LNK2001: 无法解析的外部符号 _free
+msvcrt.lib(delete_scalar.obj) : error LNK2001: 无法解析的外部符号 _free
+parsing.obj : error LNK2001: 无法解析的外部符号 _malloc
+msvcrt.lib(new_scalar.obj) : error LNK2001: 无法解析的外部符号 _malloc
+attach.obj : error LNK2001: 无法解析的外部符号 _malloc
+blat.obj : error LNK2001: 无法解析的外部符号 _malloc
+blatcgi.obj : error LNK2001: 无法解析的外部符号 _malloc
+makeargv.obj : error LNK2001: 无法解析的外部符号 _malloc
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+server.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+unicode.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+uuencode.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+msgbody.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+options.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+reg.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+sendnntp.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+filetype.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+gensock.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+gssfuncs.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+attach.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+base64.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+blat.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+blatcgi.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+msvcrt.lib(utility_desktop.obj) : error LNK2001: 无法解析的外部符号 _memset
+blat.obj : error LNK2001: 无法解析的外部符号 _memset
+gensock.obj : error LNK2001: 无法解析的外部符号 _memset
+gssfuncs.obj : error LNK2001: 无法解析的外部符号 _memset
+gssfuncs.obj : error LNK2001: 无法解析的外部符号 _memset
+blat.obj : error LNK2019: 无法解析的外部符号 __waccess，该符号在函数 _wmain 中被引用
+blat.obj : error LNK2019: 无法解析的外部符号 ___acrt_iob_func，该符号在函数 "void __cdecl printMsg(struct _COMMON_DATA &,wchar_t *,...)" (?printMsg@@YAXAAU_COMMON_DATA@@PA_WZZ) 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 ___acrt_iob_func
+reg.obj : error LNK2001: 无法解析的外部符号 ___acrt_iob_func
+blat.obj : error LNK2019: 无法解析的外部符号 __wfopen，该符号在函数 "void __cdecl printMsg(struct _COMMON_DATA &,wchar_t *,...)" (?printMsg@@YAXAAU_COMMON_DATA@@PA_WZZ) 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 __wfopen
+blat.obj : error LNK2019: 无法解析的外部符号 ___stdio_common_vfwprintf，该符号在函数 __vfwprintf_l 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vfwprintf
+reg.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vfwprintf
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswprintf
+gssfuncs.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswprintf
+mime.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswprintf
+options.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswprintf
+sendnntp.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswprintf
+blat.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswprintf
+blatcgi.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswprintf
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswprintf
+gensock.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswprintf
+reg.obj : error LNK2019: 无法解析的外部符号 _wcscmp，该符号在函数 "int __cdecl CreateRegEntry(struct _COMMON_DATA &,struct HKEY__ *)" (?CreateRegEntry@@YAHAAU_COMMON_DATA@@PAUHKEY__@@@Z) 中被引用
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _wcscmp
+server.obj : error LNK2001: 无法解析的外部符号 _wcscmp
+unicode.obj : error LNK2001: 无法解析的外部符号 _wcscmp
+blat.obj : error LNK2001: 无法解析的外部符号 _wcscmp
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 _wcscmp
+msgbody.obj : error LNK2001: 无法解析的外部符号 _wcscmp
+options.obj : error LNK2001: 无法解析的外部符号 _wcscmp
+options.obj : error LNK2001: 无法解析的外部符号 __wcsicmp
+blat.obj : error LNK2001: 无法解析的外部符号 __wcsicmp
+blatcgi.obj : error LNK2001: 无法解析的外部符号 __wcsicmp
+filetype.obj : error LNK2001: 无法解析的外部符号 __wcsicmp
+gssfuncs.obj : error LNK2001: 无法解析的外部符号 __wcsicmp
+blat.obj : error LNK2019: 无法解析的外部符号 _exit，该符号在函数 _wmain 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2001: 无法解析的外部符号 _exit
+blat.obj : error LNK2019: 无法解析的外部符号 _srand，该符号在函数 __catch$_wmain$1 中被引用
+blat.obj : error LNK2019: 无法解析的外部符号 _fclose，该符号在函数 "void __cdecl printMsg(struct _COMMON_DATA &,wchar_t *,...)" (?printMsg@@YAXAAU_COMMON_DATA@@PA_WZZ) 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 _fclose
+blat.obj : error LNK2019: 无法解析的外部符号 _fflush，该符号在函数 "void __cdecl printMsg(struct _COMMON_DATA &,wchar_t *,...)" (?printMsg@@YAXAAU_COMMON_DATA@@PA_WZZ) 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 _fflush
+blat.obj : error LNK2019: 无法解析的外部符号 ___stdio_common_vfprintf，该符号在函数 __vfprintf_l 中被引用
+blat.obj : error LNK2019: 无法解析的外部符号 __localtime64，该符号在函数 _localtime 中被引用
+blat.obj : error LNK2019: 无法解析的外部符号 __time64，该符号在函数 _time 中被引用
+blatcgi.obj : error LNK2019: 无法解析的外部符号 _memmove，该符号在函数 "int __cdecl DoCgiWork(int &,wchar_t * * &,class Buf &,class Buf &,class Buf &,class Buf &,class Buf &)" (?DoCgiWork@@YAHAAHAAPAPA_WAAVBuf@@2222@Z) 中被引用
+blatcgi.obj : error LNK2019: 无法解析的外部符号 _towupper，该符号在函数 "int __cdecl hextoint(wchar_t)" (?hextoint@@YAH_W@Z) 中被引用
+blatcgi.obj : error LNK2019: 无法解析的外部符号 __wtol，该符号在函数 "void __cdecl ReadPostData(class Buf &)" (?ReadPostData@@YAXAAVBuf@@@Z) 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 __wtol
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 __wtol
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _wcscat
+blatcgi.obj : error LNK2001: 无法解析的外部符号 _wcscat
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 _wcscat
+gssfuncs.obj : error LNK2001: 无法解析的外部符号 _wcscat
+msgbody.obj : error LNK2001: 无法解析的外部符号 _wcscat
+blatcgi.obj : error LNK2019: 无法解析的外部符号 _realloc，该符号在函数 "unsigned long __stdcall ReadCommandLine(wchar_t *,int &,wchar_t * * &)" (?ReadCommandLine@@YGKPA_WAAHAAPAPA_W@Z) 中被引用
+server.obj : error LNK2019: 无法解析的外部符号 _wcsstr，该符号在函数 "int __cdecl put_message_line(struct _COMMON_DATA &,void *,wchar_t *)" (?put_message_line@@YAHAAU_COMMON_DATA@@PAXPA_W@Z) 中被引用
+bldhdrs.obj : error LNK2001: 无法解析的外部符号 _wcsstr
+msgbody.obj : error LNK2001: 无法解析的外部符号 _wcsstr
+options.obj : error LNK2001: 无法解析的外部符号 _wcsstr
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _wcsstr
+bldhdrs.obj : error LNK2019: 无法解析的外部符号 __wcsupr，该符号在函数 "void __cdecl fixupEmailHeaders(struct _COMMON_DATA &,wchar_t *,class Buf *,int,int)" (?fixupEmailHeaders@@YAXAAU_COMMON_DATA@@PA_WPAVBuf@@HH@Z) 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 __wcsupr
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 __wcsupr
+server.obj : error LNK2001: 无法解析的外部符号 __wcsupr
+bldhdrs.obj : error LNK2019: 无法解析的外部符号 _rand，该符号在函数 "void __cdecl build_headers(struct _COMMON_DATA &,struct _BLDHDRS &)" (?build_headers@@YAXAAU_COMMON_DATA@@AAU_BLDHDRS@@@Z) 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 _rand
+gensock.obj : error LNK2019: 无法解析的外部符号 _strchr，该符号在函数 "char * __cdecl strchr(char * const,int)" (?strchr@@YAPADQADH@Z) 中被引用
+gensock.obj : error LNK2019: 无法解析的外部符号 _strrchr，该符号在函数 "char * __cdecl strrchr(char * const,int)" (?strrchr@@YAPADQADH@Z) 中被引用
+gensock.obj : error LNK2019: 无法解析的外部符号 __wcslwr，该符号在函数 "public: int __thiscall connection::get_connected(struct _COMMON_DATA &,wchar_t *,wchar_t *)" (?get_connected@connection@@QAEHAAU_COMMON_DATA@@PA_W1@Z) 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 __wcslwr
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 __wcslwr
+gensock.obj : error LNK2019: 无法解析的外部符号 ___stdio_common_vsprintf，该符号在函数 __vsnprintf_l 中被引用
+gensock.obj : error LNK2019: 无法解析的外部符号 _isdigit，该符号在函数 "int __cdecl gensock_is_a_number(char *)" (?gensock_is_a_number@@YAHPAD@Z) 中被引用
+gensock.obj : error LNK2019: 无法解析的外部符号 _strlen，该符号在函数 "void __cdecl debugOutputThisData(struct _COMMON_DATA &,char *,unsigned long,wchar_t *)" (?debugOutputThisData@@YAXAAU_COMMON_DATA@@PADKPA_W@Z) 中被引用
+gensock.obj : error LNK2019: 无法解析的外部符号 _strncpy，该符号在函数 "void __cdecl debugOutputThisData(struct _COMMON_DATA &,char *,unsigned long,wchar_t *)" (?debugOutputThisData@@YAXAAU_COMMON_DATA@@PADKPA_W@Z) 中被引用
+gensock.obj : error LNK2019: 无法解析的外部符号 _strtol，该符号在函数 "public: int __thiscall connection::get_connected(struct _COMMON_DATA &,wchar_t *,wchar_t *)" (?get_connected@connection@@QAEHAAU_COMMON_DATA@@PA_W1@Z) 中被引用
+gssfuncs.obj : error LNK2019: 无法解析的外部符号 _wcsncat，该符号在函数 "public: wchar_t * __thiscall GssSession::StatusText(unsigned int,unsigned int,wchar_t *)" (?StatusText@GssSession@@QAEPA_WIIPA_W@Z) 中被引用
+gssfuncs.obj : error LNK2019: 无法解析的外部符号 _wcsncpy，该符号在函数 "public: wchar_t * __thiscall GssSession::GssException::status_message(void)" (?status_message@GssException@GssSession@@QAEPA_WXZ) 中被引用
+options.obj : error LNK2001: 无法解析的外部符号 _wcsncpy
+gssfuncs.obj : error LNK2019: 无法解析的外部符号 __CxxThrowException@8，该符号在函数 "public: void __thiscall GssSession::Authenticate(struct _COMMON_DATA &,int (__cdecl*)(struct _COMMON_DATA &,wchar_t *),int (__cdecl*)(struct _COMMON_DATA &,wchar_t *),wchar_t *,wchar_t *,int,enum protLev)" (?Authenticate@GssSession@@QAEXAAU_COMMON_DATA@@P6AH0PA_W@Z211HW4protLev@@@Z) 中被引用
+msvcrt.lib(throw_bad_alloc.obj) : error LNK2001: 无法解析的外部符号 __CxxThrowException@8
+makeargv.obj : error LNK2019: 无法解析的外部符号 _towlower，该符号在函数 "unsigned int __cdecl make_argv(wchar_t,wchar_t *,wchar_t * *,unsigned int,unsigned int,int)" (?make_argv@@YAI_WPA_WPAPA_WIIH@Z) 中被引用
+options.obj : error LNK2019: 无法解析的外部符号 __wtoi，该符号在函数 "int __cdecl checkMaxNames(struct _COMMON_DATA &,int,wchar_t * *,int,int)" (?checkMaxNames@@YAHAAU_COMMON_DATA@@HPAPA_WHH@Z) 中被引用
+server.obj : error LNK2001: 无法解析的外部符号 __wtoi
+options.obj : error LNK2019: 无法解析的外部符号 __wcsnicmp，该符号在函数 "int __cdecl processOptions(struct _COMMON_DATA &,int,wchar_t * *,int,int)" (?processOptions@@YAHAAU_COMMON_DATA@@HPAPA_WHH@Z) 中被引用
+options.obj : error LNK2019: 无法解析的外部符号 _isalpha，该符号在函数 "int __cdecl checkA1Headers(struct _COMMON_DATA &,int,wchar_t * *,int,int)" (?checkA1Headers@@YAHAAU_COMMON_DATA@@HPAPA_WHH@Z) 中被引用
+options.obj : error LNK2019: 无法解析的外部符号 _toupper，该符号在函数 "int __cdecl checkA1Headers(struct _COMMON_DATA &,int,wchar_t * *,int,int)" (?checkA1Headers@@YAHAAU_COMMON_DATA@@HPAPA_WHH@Z) 中被引用
+options.obj : error LNK2019: 无法解析的外部符号 _tolower，该符号在函数 "int __cdecl checkA1Headers(struct _COMMON_DATA &,int,wchar_t * *,int,int)" (?checkA1Headers@@YAHAAU_COMMON_DATA@@HPAPA_WHH@Z) 中被引用
+parsing.obj : error LNK2019: 无法解析的外部符号 _iswdigit，该符号在函数 "void __cdecl parseCommaDelimitString(struct _COMMON_DATA &,wchar_t *,class Buf &,int)" (?parseCommaDelimitString@@YAXAAU_COMMON_DATA@@PA_WAAVBuf@@H@Z) 中被引用
+sendsmtp.obj : error LNK2001: 无法解析的外部符号 _iswdigit
+server.obj : error LNK2001: 无法解析的外部符号 _iswdigit
+parsing.obj : error LNK2019: 无法解析的外部符号 ___stdio_common_vswscanf，该符号在函数 __vswscanf_l 中被引用
+server.obj : error LNK2001: 无法解析的外部符号 ___stdio_common_vswscanf
+sendsmtp.obj : error LNK2019: 无法解析的外部符号 _wcstok，该符号在函数 __wcstok 中被引用
+msvcrt.lib(ehvecdtr.obj) : error LNK2019: 无法解析的外部符号 _terminate，该符号在函数 "int __cdecl ArrayUnwindFilter(struct _EXCEPTION_POINTERS *)" (?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z) 中被引用
+msvcrt.lib(utility_desktop.obj) : error LNK2001: 无法解析的外部符号 _terminate
+msvcrt.lib(new_scalar.obj) : error LNK2019: 无法解析的外部符号 __callnewh，该符号在函数 "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __seh_filter_exe，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __set_app_type，该符号在函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 ___setusermatherr，该符号在函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __configure_wide_argv，该符号在函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __initialize_wide_environment，该符号在函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __get_initial_wide_environment，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __initterm，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __initterm_e，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __exit，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __set_fmode，该符号在函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 ___p___argc，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 ___p___wargv，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __cexit，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(utility.obj) : error LNK2001: 无法解析的外部符号 __cexit
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __c_exit，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __register_thread_local_exe_atexit_callback，该符号在函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __configthreadlocale，该符号在函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 __set_new_mode，该符号在函数 "void __cdecl pre_cpp_initialization(void)" (?pre_cpp_initialization@@YAXXZ) 中被引用
+msvcrt.lib(exe_wmain.obj) : error LNK2019: 无法解析的外部符号 ___p__commode，该符号在函数 "int __cdecl pre_c_initialization(void)" (?pre_c_initialization@@YAHXZ) 中被引用
+msvcrt.lib(_chandler4gs_.obj) : error LNK2019: 无法解析的外部符号 __except_handler4_common，该符号在函数 __except_handler4 中被引用
+msvcrt.lib(throw_bad_alloc.obj) : error LNK2019: 无法解析的外部符号 ___std_exception_copy，该符号在函数 "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z) 中被引用
+msvcrt.lib(throw_bad_alloc.obj) : error LNK2019: 无法解析的外部符号 ___std_exception_destroy，该符号在函数 "public: virtual __thiscall std::bad_alloc::~bad_alloc(void)" (??1bad_alloc@std@@UAE@XZ) 中被引用
+msvcrt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __seh_filter_dll，该符号在函数 ___scrt_dllmain_exception_filter 中被引用
+msvcrt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __configure_narrow_argv，该符号在函数 "public: static int __cdecl __scrt_narrow_argv_policy::configure_argv(void)" (?configure_argv@__scrt_narrow_argv_policy@@SAHXZ) 中被引用
+msvcrt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __initialize_narrow_environment，该符号在函数 ___scrt_dllmain_after_initialize_c 中被引用
+msvcrt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __initialize_onexit_table，该符号在函数 ___scrt_initialize_onexit_tables 中被引用
+msvcrt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __register_onexit_function，该符号在函数 __onexit 中被引用
+msvcrt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __execute_onexit_table，该符号在函数 ___scrt_dllmain_uninitialize_c 中被引用
+msvcrt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __crt_atexit，该符号在函数 __onexit 中被引用
+msvcrt.lib(utility.obj) : error LNK2019: 无法解析的外部符号 __crt_at_quick_exit，该符号在函数 _at_quick_exit 中被引用
+msvcrt.lib(tncleanup.obj) : error LNK2019: 无法解析的外部符号 ___std_type_info_destroy_list，该符号在函数 "void __cdecl __scrt_uninitialize_type_info(void)" (?__scrt_uninitialize_type_info@@YAXXZ) 中被引用
+msvcrt.lib(default_precision.obj) : error LNK2019: 无法解析的外部符号 __controlfp_s，该符号在函数 __initialize_default_precision 中被引用
+Win32\Debug\blat.exe : fatal error LNK1120: 86 个无法解析的外部命令
