@@ -4,11 +4,11 @@
 
 :::::::::::::: 参数设置：：：：：：：：：：：：：：
 
-set from=wshsuzhou@163.com
+set from=
 
-set user=wshsuzhou
+set user=
 
-set pass=Five5color
+set pass=
 
 rem 多个邮件用逗号分隔
 rem ,blat@sdf.lonestar.org

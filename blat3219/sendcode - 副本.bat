@@ -6,9 +6,9 @@
 
 set from=wshsuzhou@163.com
 
-set user=wshsuzhou
+set user=写上自己邮箱账号，没有@和之后
 
-set pass=Five5color
+set pass=写上自己邮箱密码
 
 rem 多个邮件用逗号分隔
 rem ,blat@sdf.lonestar.org
